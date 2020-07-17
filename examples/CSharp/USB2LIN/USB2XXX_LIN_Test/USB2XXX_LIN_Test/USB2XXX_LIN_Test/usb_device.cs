@@ -52,7 +52,7 @@ namespace USB2XXX
         [DllImport("USB2XXX.dll")]
         public static extern bool DEV_GetDeviceInfo(Int32 DevHandle, ref DEVICE_INFO pDevInfo, StringBuilder pFunctionStr);
         /**
-          * @brief  擦出用户区数据
+          * @brief  擦除用户区数据
           * @param  DevHandle 设备索引号
           * @retval 用户区数据擦出状态
           */
